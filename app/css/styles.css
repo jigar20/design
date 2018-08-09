@@ -1,0 +1,124 @@
+.col {
+  text-align: center;
+  /*border: 1px solid white;*/
+ /*height: 50px;*/
+}
+
+.valign-wrapper {
+  height: 400px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h2,p{
+	color: #343333;
+	text-align: left;
+}
+.bgC{
+	background-color: #343333;
+	font-weight:bold;
+}
+.bgC:hover{
+	background-color: #343333;
+	color:#ffffff;
+
+	text-decoration:none;
+}
+.input-field>label{
+	font-size:1.15rem;
+}
+.mt-30{
+	margin-top:30px;
+}
+.mt-150{
+	margin-top: 100px;
+}
+.mt-75{
+	margin-top:75px;	
+}
+/*********landing page css**********/
+.lpbgColor{
+	background-color:#faf8f5;
+}
+.mybg{
+	width:100%;
+	height:1600px;
+	
+}
+
+ul {
+	margin:0;
+	padding:0;	
+	list-style:none;
+}
+ ul li{
+ 	display:inline-block;
+ 	list-style:none;
+ }
+
+ ul li a{
+ 	color:#ffffff;
+ 	padding:6px 15px;
+ 	border-radius:20px;
+ 	background-color:pink;
+ }
+ .bgImg{
+ 	background-image: url("../images/Oval.png"),url("../images/Oval3.png"),url("../images/Oval2.png"),url("../images/02.png");
+ 	background-repeat:no-repeat,no-repeat;
+ 	background-size: 130px 130px,40px 40px,80px 80px,450px 500px;
+    background-position: 2% 23%, 80% 14%,98% 25%,55% 25%;
+
+ }
+  .spWidth{
+  	width:50px!important;
+  	font-size: 16px;
+  	text-align: center;
+  }
+  .spWidth2{
+  	/*width:150px!important;;*/
+  	font-size: 16px;
+  	text-align: left;
+  	font-weight: bold;
+  	/*padding: 0px 30px;*/
+  }
+  .spWidth2:before{
+  	content: "1";
+  	color: grey;
+    font-weight: bold;
+    /*padding-right: 20px;*/
+     position: relative;
+    top: 0 ;
+    left:-7px;
+    /*right:0;*/
+  }
+  .spWidth2:after{
+  	content: "=>";
+  	visibility: hidden;
+  	color: grey;
+    font-weight: bold;
+    padding-left: 0;
+    position: relative;
+    top: 0 ;
+    /*left:0;*/
+    right:-24px;
+  }
+  .spWidth2:hover{
+  	color: #474545!important;
+  }
+  .spWidth2:hover::after,.spWidth2:hover::before{
+  	color: #F2B424;
+  	visibility: visible;
+  }
+@media screen only and (max-width:768){
+	.mt-150{
+	margin-top: 70px;
+}
+}
